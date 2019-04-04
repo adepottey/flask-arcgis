@@ -1,7 +1,7 @@
 from arcgis.gis import GIS
 from flask import Flask, request, jsonify
 
-app = Flask(__name__)
+application = app = Flask(__name__)
 
 
 @app.route('/')
